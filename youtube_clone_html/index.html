@@ -8,7 +8,7 @@
     <title>Youtube Clone</title>
 </head>
 <body class="bg-gray-50">
-    <header class="flex text-gray-600 fixed w-full bg-white z-30">
+    <header class="flex text-gray-600 fixed w-full z-30">
         <div class="flex items-center w-1/4 pl-4">
             <button class="pl-2 pr-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -53,7 +53,7 @@
             </button>
         </div>
     </header>
-    <aside class="min-h-screen xl:hidden overflow-auto fixed top-0 pt-14 z-20 bg-white">
+    <aside class="min-h-screen hidden md:block xl:hidden overflow-auto fixed top-0 pt-14 z-20 bg-white">
         <section class="">
             <ul>
                 <li><a href="#" class="hover:bg-gray-100 flex flex-col text-red-600 items-center px-6 py-2">
@@ -237,83 +237,88 @@
             </div>
         </section>
     </aside>
-    <section class="xl:ml-64 md:ml-24 pt-14 fixed bg-white z-10 w-full">
-        <div class="px-4 py-3 border-t border-b flex items-center text-sm overflow-x-auto space-x-3 whitespace-nowrap">
-            <a href="#" class="px-3 py-1 transition  text-white bg-gray-600 border border-gray-700 rounded-full hover:bg-gray-500">Football</a>
-            <a href="#" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">vines</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">news</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">Machines</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">TV Shows</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">woodworking</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">streets</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">some words</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any words</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any things</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">Engines</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">streets</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">some words</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any words</a>
-            <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any things</a>
+    <section class="xl:pl-64 md:pl-24 pt-14 fixed bg-white bg-opacity-95 z-10 w-full">
+        <div class="px-4 py-3 border-t border-b">
+            <div class="max-w-screen-2xl mx-auto flex items-center text-sm overflow-x-auto space-x-3 whitespace-nowrap">
+                <a href="#" class="px-3 py-1 transition  text-white bg-gray-600 border border-gray-700 rounded-full hover:bg-gray-500">Football</a>
+                <a href="#" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">vines</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">news</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">Machines</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">TV Shows</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">woodworking</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">streets</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">some words</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any words</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any things</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">Engines</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">streets</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">some words</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any words</a>
+                <a href="" class="px-3 py-1 bg-gray-100 border border-gray-300 rounded-full hover:bg-gray-200">any things</a>
+            </div>
         </div>
-    </section>
-    <main class="xl:ml-64 md:ml-24 pt-32 px-3 pb-5 grid grid-cols-4 gap-4">
-        <a href="" class="mb-7 group">
-            <div class="relative">
-                <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-                <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 bg-gray-800 text-white m-0.5 p-1 top-0 right-0 absolute">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
-                      </svg>
-                </span>
-                <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 bg-gray-800 text-white m-0.5 p-1 top-8 right-0 absolute">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-                      </svg>
-                </span>
-                <span class="duration-500 opacity-100 group-hover:opacity-0 bg-opacity-60 bg-gray-900 text-white text-sm p-1 m-0.5 font-semibold rounded-sm bottom-0 right-0 absolute">
-                    6:30
-                </span>
-            </div>
-            <div class="flex items-start mt-3 text-sm">
-                <img src="https://picsum.photos/seed/avatar1/68" alt="avatar" class="mr-3 w-9 h-9 rounded-full">
-                <div>
-                    <span class="mb-1 font-semibold text-gray-800">Video text name content </span>
-                    <div class="flex items-center mb-1">
-                        <span>Chanel name 1</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                          </svg>
-                    </div>
-                    <div>
-                        <span>1K views</span>
-                        &middot;
-                        <span>1 day ago</span>
-                    </div>
-                </div>
-                <button class="-mt-1 ml-auto p-1 opacity-0 group-hover:opacity-100 hover:text-gray-700 focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-                      </svg>
-                </button>
-            </div>
-        </a>
         
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
-        <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+    </section>
+    <main class="xl:ml-64 md:ml-24 pt-32 px-10 sm:px-5 pb-5">
+        <div class="max-w-screen-2xl mx-auto grid 2xl:grid-cols-6 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
+            <a href="" class="mb-7 group">
+                <div class="relative">
+                    <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+                    <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 bg-gray-800 text-white m-0.5 p-1 top-0 right-0 absolute">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                          </svg>
+                    </span>
+                    <span class="opacity-0 group-hover:opacity-100 bg-opacity-60 bg-gray-800 text-white m-0.5 p-1 top-8 right-0 absolute">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+                          </svg>
+                    </span>
+                    <span class="duration-500 opacity-100 group-hover:opacity-0 bg-opacity-60 bg-gray-900 text-white text-sm p-1 m-0.5 font-semibold rounded-sm bottom-0 right-0 absolute">
+                        6:30
+                    </span>
+                </div>
+                <div class="flex items-start mt-3 text-sm">
+                    <img src="https://picsum.photos/seed/avatar1/68" alt="avatar" class="mr-3 w-9 h-9 rounded-full">
+                    <div>
+                        <span class="mb-1 font-semibold text-gray-800">Video text name content </span>
+                        <div class="flex items-center mb-1">
+                            <span>Chanel name 1</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                              </svg>
+                        </div>
+                        <div>
+                            <span>1K views</span>
+                            &middot;
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                    <button class="-mt-1 ml-auto p-1 opacity-0 group-hover:opacity-100 hover:text-gray-700 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                          </svg>
+                    </button>
+                </div>
+            </a>
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+            <img src="https://picsum.photos/seed/picsum/720/400" alt="img from http://picsum.photos">
+        </div>
+        
     </main>
 </body>
 </html>
