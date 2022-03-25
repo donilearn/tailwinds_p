@@ -1,21 +1,25 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  
+  <theHeader />
+  <theSmallHeader />
+  <theSidebar />
+  <theMobileSidebar />
+  <theCategories />
+  <theVideos />
   
 </template>
+<script>
+import theHeader from './components/header/header.vue'
+import theSmallHeader from './components/header/smallHeader.vue'
+import theSidebar from './components/sidebar/theSidebar.vue'
+import theMobileSidebar from './components/sidebar/theMobileSidebar.vue'
+import theCategories from './components/categories/theCategory.vue'
+import theVideos from './components/videos/theVideo.vue'
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+export default {
+  components:{
+    theHeader, theSmallHeader, theSidebar, theMobileSidebar, theCategories, theVideos
+  }
 }
-</style>
+</script>
